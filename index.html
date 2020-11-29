@@ -20,6 +20,8 @@
 </head>
 
 <body id="page-top">
+
+
     <div id="wrapper">
         <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
             <div class="container-fluid d-flex flex-column p-0">
@@ -36,10 +38,24 @@
                 <div class="text-center d-none d-md-inline"></div>
             </div>
         </nav>
+
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
+
                 <h1 class="text-center text-success">Главная страница</h1>
-                <p><br>Страница контента находится в разработке. Перейдите, пожалуйста, к странице <a href="monitor.html">мониторинга</a><br></p>
+                <p><br>Личный Кабинет ГосСлужащего<a href="monitor.html">мониторинга</a><br></p>
+                <div class="form_auth_block">
+  <div class="form_auth_block_content">
+    <p class="form_auth_block_head_text "> <h1 class="text-center text-success">Авторизация</h1></p>
+    <form class="form_auth_style" action="#" method="post">
+      <label> Введите Ваш имейл</label>
+      <p><input type="email" name="auth_email" placeholder="Введите Ваш имейл" required > </p>
+      <label>Введите Ваш пароль</label>
+      <p><input type="password" name="auth_pass" placeholder="Введите пароль" required ></p>
+      <button class="form_auth_button" type="submit" name="form_auth_submit" action="monitor.html"> Войти </button>
+    </form>
+  </div>
+</div>
             </div>
             <footer class="bg-white sticky-footer">
                 <div class="container my-auto">
